@@ -1,0 +1,36 @@
+
+html {
+  
+  background-color: white;
+  display: block;
+}
+
+body {
+  width: 100%;
+  font-size: 18px;
+  background-color: black;
+}
+
+.header {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.container {
+  color: white;
+  display: block;
+  width: 960px;
+  
+}
+
+.header img {
+padding-right: 15px;
+}
+
+.main-banner {
+  background: url(./images/moto.jpeg);
+}
