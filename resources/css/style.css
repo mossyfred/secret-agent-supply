@@ -90,6 +90,7 @@ height: 1.5rem;
 }
 
 nav {
+    width: 100%;
     display: block;
     background-color: firebrick;
     color: white;
@@ -97,10 +98,66 @@ nav {
 
 
 .container-list {
-  display: block;
-  width: 100%;
-  flex-direction: row;
-  justify-content: center;
+  display: flex;
   align-items: center;
-  background-color: firebrick;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.75rem 0;
 }
+
+.container-pictures {
+  width: 960px;
+  display: block;
+  background-color: white;
+  }
+
+.products {
+    display: flex;
+    max-width: 960px;
+    margin: 3rem 0 0 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-image {
+  display: flex;
+  border: 4px solid black;
+  padding: 2rem 0;
+  height: 9rem;
+  max-width: 30%;
+  }
+
+.product-image img {
+  max-width: 8rem;
+
+}
+
+
+
+.description {
+  display: block;
+  text-align: center;
+  background-color: black;
+  padding: 0.5rem 0.5rem;
+  color: white;
+}
+
+  .info {
+
+  }
+
+  .business-info {
+    display: flex;
+    width: 960px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    justify-content: space-between;
+  }
