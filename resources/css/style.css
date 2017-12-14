@@ -106,6 +106,7 @@ nav {
   padding: 0.75rem 0;
 }
 
+
 .container-pictures {
   width: 960px;
   display: block;
@@ -159,7 +160,7 @@ nav {
   .info {
     display: block;
     width: 35%;
-
+    justify-content: space-between;
   }
 
   .title {
@@ -182,5 +183,57 @@ footer {
   display: block;
   max-width: 960px;
   margin: 0 auto;
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .mobile-version {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile-version {
+    display: block;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0.75rem 0;
+  }
+
+  .product {
+    width: 47%;
+  }
+  .container-list {
+    visibility: hidden;
+}
+
+  #watch {
+    visibility: hidden;
+  }
+
+}
+
+@media only screen and (max-width: 470px) {
+
+  #watch {
+    visibility: hidden;
+  }
+
+  #glasses {
+    visibility: hidden;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  .container-footer {
+    text-align: center;
+  }
+
+  .info {
+    width: 90%;
+  }
 
 }
