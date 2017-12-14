@@ -116,15 +116,13 @@ nav {
     display: flex;
     max-width: 960px;
     margin: 3rem 0 0 0;
-    align-items: center;
+
     justify-content: space-between;
 }
 
 .product {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  width: 30%;
+  display: block;
 }
 
 .product-image {
@@ -132,32 +130,57 @@ nav {
   border: 4px solid black;
   padding: 2rem 0;
   height: 9rem;
-  max-width: 30%;
+  justify-content: center;
+  align-items: center;
+
+
   }
 
 .product-image img {
   max-width: 8rem;
-
 }
-
 
 
 .description {
   display: block;
   text-align: center;
   background-color: black;
-  padding: 0.5rem 0.5rem;
+  padding: 0.5rem;
   color: white;
 }
-
-  .info {
-
-  }
 
   .business-info {
     display: flex;
     width: 960px;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin: 3rem 0 0 0;
     justify-content: space-between;
   }
+
+  .info {
+    display: block;
+    width: 35%;
+
+  }
+
+  .title {
+    display: block;
+    background-color: black;
+    padding: 1rem 2rem;
+    color: white;
+  }
+
+footer {
+  display: block;
+  background-color: black;
+  width: 100%;
+  margin-top: 4rem;
+  padding: 5em 0;
+  color: white;
+}
+
+.container-footer {
+  display: block;
+  max-width: 960px;
+  margin: 0 auto;
+
+}
